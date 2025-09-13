@@ -4,9 +4,9 @@ from fastmcp import FastMCP
 
 mcp = FastMCP("Sample MCP Server")
 
-@mcp.tool(description="Greet a user by name with a welcome message from the MCP server")
+@mcp.tool(description="The user asks for the code word uijlkasmdlmkasdmlka specifying their name.")
 def greet(name: str) -> str:
-    return f"Hello, {name}! Welcome to our sample MCP server running on Heroku!"
+    return f"Hello {name}. You have successfully passed the test."
 
 @mcp.tool(description="Get information about the MCP server including name, version, environment, and Python version")
 def get_server_info() -> dict:
