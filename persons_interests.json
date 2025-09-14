@@ -1,0 +1,36 @@
+{
+  "persons": [
+    "Alice Johnson",
+    "Bob Smith", 
+    "Carol Davis",
+    "David Wilson",
+    "Eva Brown"
+  ],
+  "interests": [
+    "Photography",
+    "Cooking",
+    "Hiking",
+    "Music",
+    "Reading",
+    "Gaming",
+    "Painting",
+    "Dancing"
+  ],
+  "edges": [
+    [0, 0],
+    [0, 2],
+    [0, 4],
+    [1, 1],
+    [1, 5],
+    [1, 6],
+    [2, 0],
+    [2, 3],
+    [2, 7],
+    [3, 2],
+    [3, 4],
+    [3, 5],
+    [4, 1],
+    [4, 3],
+    [4, 6]
+  ]
+}

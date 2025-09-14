@@ -1,0 +1,37 @@
+{
+    "persons": [
+      "Alberto Einstein",
+      "Maria Curie", 
+      "Isaac Newtonson",
+      "Niels Bohrsen",
+      "Max Planckowski"
+    ],
+    "interests": [
+      "Machine Learning",
+      "Linear Algebra",
+      "Data Structures",
+      "Calculus",
+      "Algorithms",
+      "Statistics",
+      "Computer Graphics",
+      "Number Theory"
+    ],
+    "edges": [
+      [0, 0],
+      [0, 2],
+      [0, 4],
+      [1, 1],
+      [1, 5],
+      [1, 6],
+      [2, 0],
+      [2, 3],
+      [2, 7],
+      [3, 2],
+      [3, 4],
+      [3, 5],
+      [4, 1],
+      [4, 3],
+      [4, 6]
+    ]
+  }
+  
